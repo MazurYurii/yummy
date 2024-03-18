@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+}
+header {
+    width: 61%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #774E2E;
+    font-weight: 500;
+}
+header ul li:first-child {
+    padding-right: 50px;
+}
+
+
+.sectionOne {
+    width: 61%;
+    margin: auto;
+    display: flex;
+}
+.sectionOneDescr {
+    width: 50%;
+}
+.sectionOne .sectionOneDescr h1 {
+    font-size: 110px;
+    color:#774E2E;
+    margin-top: 161px;
+    margin-bottom: 40px;
+}
+.sectionOne .sectionOneDescr h1 span {
+    color: #F37F34;
+}
+.sectionOne .sectionOneDescr p {
+    color: #774E2E;
+    margin: 0;
+    font-weight: 500;
+}
+.sectionOne .sectionOneDescr button {
+    width: 343px;
+    height: 69px;
+    background-color: #774E2E;
+    color:white;
+    font-size:20px;
+    margin-top: 50px;
+}
+.sectionOne img {
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+
+.sectionTwo {
+    width: 100%;
+    background-color:#FFF9EA;
+}
+.sectionTwo h2 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color:#774E2E;
+    padding-top: 150px;
+}
+.sectionTwo h2 span {
+    color: #F37F34;
+}
+.sectionTwo .cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+.sectionTwo .cards .card {
+    background-color: white;
+    width: 18%;
+    text-align: center;
+    margin: 15px;
+}
+.sectionTwo .cards .card img {
+    width: 100%;
+}
+.sectionTwo .cards .card h5 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color:#774E2E;
+    font-weight: 600;
+}
+.sectionTwo .cards .card p {
+    margin: 15px 20px 35px 20px;
+    color:#774E2E;
+    font-weight: 500;
+}
+
+
+.sectionThree {
+    width: 61%;;
+    margin: auto;
+    display: flex;
+}
+.sectionThreeDescr {
+    width: 50%;
+}
+.sectionThree .sectionThreeDescr h2 {
+    font-size: 72px;
+    color: #774E2E;
+    margin: 195px 0 30px 0;
+}
+.sectionThree .sectionThreeDescr h2 span {
+    color: #F37F34;
+}
+.sectionThree .sectionThreeDescr p {
+    margin-bottom: 60px;
+    font-weight: 500;
+    color:#774E2E;
+}
+.sectionThree .sectionThreeDescr h5 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #774E2E;
+    margin-bottom: 20px;
+}
+.sectionThree .sectionThreeDescr ul {
+    display: block;
+    font-weight: 500;
+    color: #774E2E;
+    list-style: inside;
+}
+.sectionThree img {
+    width: 50%;
+    margin: 150px 0;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: #774E2E;
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+}
+footer .footerWrap {
+    width: 61%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footerWrap img {
+    margin: 40px 0;
+}
+
+
+@media (max-width:1440px) {
+    .sectionOne .sectionOneDescr h1 {
+        font-size: 74px;
+        margin-top: 50px;
+    }
+    .sectionOne .sectionOneDescr button {
+        width: 315px;
+    }
+    .sectionTwo h2 {
+        font-size: 42px;
+    }
+    .sectionTwo .cards .card h5 {
+        font-size: 22px;
+    }
+    .sectionTwo .cards .card p {
+        font-size: 14px;
+    }
+    .sectionThree .sectionThreeDescr h2 {
+        font-size: 50px;
+        margin: 120px 0 30px 0
+    }
+    .sectionThree .sectionThreeDescr p {
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    .sectionThree .sectionThreeDescr h5 {
+        font-size: 20px;
+    }
+    .sectionThree .sectionThreeDescr ul {
+        font-size: 14px;
+    }
+    .sectionThree img {
+        width: 40%;
+        margin: 200px 0;
+    }
+    footer .footerWrap p {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:1024px) {
+    header {
+        width: 90%;
+    }
+    .sectionOne {
+        width: 90%;
+    }
+    .sectionOne .sectionOneDescr {
+        width: 45%;
+    }
+    .sectionOne .sectionOneDescr h1 {
+        font-size: 74px;
+        margin-top: 50px;
+    }
+    .sectionOne .sectionOneDescr button {
+        width: 270px;
+        font-size: 16px;
+    }
+    .sectionOne img {
+        margin-bottom: 100px;
+    }
+    .sectionTwo h2 {
+        padding-top: 60px;
+        font-size: 40px;
+    }
+    .sectionTwo .cards {
+        padding-bottom: 70px;
+    }
+    .sectionTwo .cards .card {
+        width: 24%;
+    }
+    .sectionThree {
+        width: 90%;
+    }
+    .sectionThree .sectionThreeDescr h2 {
+        margin: 90px 0 30px 0;
+        font-size: 45px;
+    }
+    .sectionThree .sectionThreeDescr p {
+        font-size: 12px;
+    }
+    .sectionThree .sectionThreeDescr h5 {
+        font-size: 18px;
+    }
+    .sectionThree .sectionThreeDescr ul {
+        font-size: 12px;
+    }
+    .sectionThree img {
+        margin: 100px 0;
+        width: 45%;
+    }
+    footer .footerWrap {
+        width: 90%;
+    }
+    footer .footerWrap p {
+        font-size: 16px;
+    }
+    footer .footerWrap img {
+        margin: 10px 0;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .sectionOne img {
+        display: none;
+    }
+    .sectionOne .sectionOneDescr {
+        width: 100%;
+    }
+    .sectionTwo .cards {
+        flex-direction: column;
+    }
+    .sectionTwo .cards .card {
+        width: 55%;
+        margin: 15px auto;
+    }
+    .sectionThree img {
+        display: none;
+    }
+    .sectionThreeDescr {
+        width: 100%;
+    }
+    .sectionThree .sectionThreeDescr h2 {
+        margin: 45px 0 30px 0;
+    }
+    .sectionThree .sectionThreeDescr p {
+        font-size: 14px;
+    }
+    footer .footerWrap p {
+        font-size: 12px;
+    }
+}
